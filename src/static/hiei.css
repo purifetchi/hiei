@@ -1,0 +1,18 @@
+body {
+  margin: 40px auto;
+  padding: 5px;
+  max-width: 650px;
+}
+
+.right {
+  float: right;
+}
+
+footer {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.small {
+  margin-bottom: 6px;
+}

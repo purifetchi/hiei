@@ -32,6 +32,8 @@
     <script>hljs.initHighlightingOnLoad();</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="<?php echo $hiei_title; ?>">
+    <meta property="og:description" content="<?php echo $title; ?>">
   </head>
   <body>
     <header>
@@ -47,7 +49,7 @@
       ?>
     </article>
     <footer class="right">
-      <small>powered by <a href="https://github.com/naomiEve/hiei">hiei</a></small>
+      <small><?php echo $hiei_footer; ?> | powered by <a href="https://github.com/naomiEve/hiei">hiei</a></small>
     </footer>
   </body>
 </html>

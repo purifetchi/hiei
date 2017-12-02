@@ -19,6 +19,8 @@
     <link rel="shortcut icon" href="static/favicon.ico">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="<?php echo $hiei_title; ?>">
+    <meta property="og:description" content="<?php echo $hiei_subtitle; ?>">
     <title><?php echo $hiei_title; ?></title>
   </head>
   <body>
@@ -46,7 +48,7 @@
       }
     ?>
     <footer class="right">
-      <small>powered by <a href="https://github.com/naomiEve/hiei">hiei</a></small>
+      <small><?php echo $hiei_footer; ?> | powered by <a href="https://github.com/naomiEve/hiei">hiei</a></small>
     </footer>
   </body>
 </html>
